@@ -13,11 +13,13 @@
     <ul>
         <li>Programming Language - Python</li>
         <li>Amazon Web Service (AWS)</li>
-        <li>S3 (Simple Storage Service)</li>
-        <li>Athena</li>
-        <li>Glue Crawler</li>
-        <li>Glue Catalog</li>
-        <li>EC2</li>
+        <ol>
+            <li>S3 (Simple Storage Service)</li>
+            <li>Athena</li>
+            <li>Glue Crawler</li>
+             <li>Glue Catalog</li>
+             <li>EC2</li>
+        </ol>
         <li>Apache Kafka</li>
     </ul>
 
