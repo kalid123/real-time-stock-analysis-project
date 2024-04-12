@@ -4,4 +4,6 @@
 
 <p> I used various technologies such as Python, Amazon Web Services (AWS), Apache Kafka, Glue, Athena, and SQL in the project.</p>
 
+<h3 style="font-size: 20px;">Architecture</h3>
+
 <img src="Project-Architecture.jpg"/>
