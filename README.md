@@ -1,4 +1,4 @@
-<h1 style="font-size: 24px;"> My Stock-Market Kafka Real Time Data Engineering Project </h1>
+<h1 style="font-size: 24px;">Stock-Market Kafka Real Time Data Engineering Project </h1>
 <h2 style="font-size: 20px;">Introduction</h2>
 <p>In this project, I executed an End-To-End Data Engineering Project on Real-Time Stock Market Data using Kafka.</p>
 
@@ -11,7 +11,7 @@
 
 <h2>Technologies Used:</h2>
     <ul>
-        <li>Programming Language - Python</li>
+        <li>Programming Language - Python, SQL</li>
         <li>Amazon Web Service (AWS)</li>
      <ol type="1">
         <li>S3 (Simple Storage Service)</li>
@@ -24,7 +24,7 @@
     </ul>
 
 <h2>Dataset Used</h2>
-<a href="Downloads/indexProcessed.csv" download>indexProcessed.csv</a>
+[indexProcessed.csv](https://github.com/kalid123/real-time-stock-analysis-project/files/14955289/indexProcessed.csv)
 
 <h2>Installation/Run</h2>
 <ul>
@@ -39,7 +39,8 @@
 <p>Start Zoo-keeper:</p>
 <ul>
     <li> bin/zookeeper-server-start.sh config/zookeeper.properties</li>
-<img width="1311" alt="Zookeeper" src="https://github.com/kalid123/real-time-stock-analysis-project/assets/104119652/6ae375db-7669-4dee-829e-46e4e01c889c">
+<img width="1298" alt="Screenshot 2024-04-12 at 2 21 47 AM" src="https://github.com/kalid123/real-time-stock-analysis-project/assets/104119652/f6fc23ac-e5f8-40f7-98d6-c9c1ef8a29e5">
+
 
 <p>Start Kafka-server:</p>
     <li>export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"</li> <p>I ran this command because I provide more memory.</p>
@@ -59,7 +60,25 @@
 <li>bin/kafka-console-producer.sh --topic demo_test --bootstrap-server 3.86.115.17:9092
 </li>
 <h3>Start Consumer:</h3>
+
 <li>bin/kafka-console-consumer.sh --topic demo_test --bootstrap-server 3.86.115.17:9092
 </li>
 </ul>
+
+<h3>EC2 instance:</h3>
+<P> I created an EC2 instace to connect to the terminal.</P>
+<img width="1168" alt="EC2 instance" src="https://github.com/kalid123/real-time-stock-analysis-project/assets/104119652/d38782da-824d-4edf-b3f2-e5edf2101cbd">
+
+<h3>S3 Bucket</h3>
+<P>Created an S3 bucket to store my CSV data file.</P>
+<img width="1056" alt="S3 bucket" src="https://github.com/kalid123/real-time-stock-analysis-project/assets/104119652/3ccc32c3-54b0-4519-9ad8-f63c5beb3210">
+
+<h3>AWS Glue Crawler and AWS Athena Integration</h3>
+<p>First, I initiated a crawler using AWS Glue to catalog the dataset. Subsequently, I established a connection between the dataset and AWS Athena to enable real-time program execution.</p>
+<p>
+    SELECT *
+FROM "stock_market_kafka"."data"
+WHERE high > 1990;
+</p>
+<img width="928" alt="AWS athena" src="https://github.com/kalid123/real-time-stock-analysis-project/assets/104119652/4abf01f8-d67b-4bb5-8841-19ca855d6286">
 
