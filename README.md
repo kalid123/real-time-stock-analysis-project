@@ -39,7 +39,8 @@
 <p>Start Zoo-keeper:</p>
 <ul>
     <li> bin/zookeeper-server-start.sh config/zookeeper.properties</li>
-    <img src="Zookeepr"/>
+<img width="1311" alt="Zookeeper" src="https://github.com/kalid123/real-time-stock-analysis-project/assets/104119652/6ae375db-7669-4dee-829e-46e4e01c889c">
+
 <p>Start Kafka-server:</p>
     <li>export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"</li> <p>I ran this command because I provide more memory.</p>
     <li>cd kafka_2.12-3.3.1</li>
