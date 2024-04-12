@@ -13,7 +13,7 @@
     <ul>
         <li>Programming Language - Python</li>
         <li>Amazon Web Service (AWS)</li>
-     <ol>
+     <ol type="1">
         <li>S3 (Simple Storage Service)</li>
         <li>Athena</li>
         <li>Glue Crawler</li>
