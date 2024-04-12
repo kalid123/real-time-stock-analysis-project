@@ -39,6 +39,7 @@
 <p>Start Zoo-keeper:</p>
 <ul>
     <li> bin/zookeeper-server-start.sh config/zookeeper.properties</li>
+    <img src="Zookeepr"/>
 <p>Start Kafka-server:</p>
     <li>export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"</li> <p>I ran this command because I provide more memory.</p>
     <li>cd kafka_2.12-3.3.1</li>
