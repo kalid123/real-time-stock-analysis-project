@@ -24,4 +24,14 @@
     </ul>
 
 <h2>Dataset Used</h2>
-<a href="Downloads/indexProcessed.csv" download>Download indexProcessed.csv</a>
+<a href="Downloads/indexProcessed.csv" download>indexProcessed.csv</a>
+
+<h2>Installation/Run</h2>
+<ul>
+    <li>Pyhton 3.7 +</li>
+    <li>wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.7.0.tgz</li>
+    <li>tar -xvf kafka_2.12-3.3.1.tgz</li>
+    <li>java - sudo yum install -y java-1.8.0-amazon-corretto-devel</li>
+    <li>zookeeper kafka</li>
+</ul>
+
