@@ -35,3 +35,14 @@
     <li>zookeeper kafka</li>
 </ul>
 
+<h3>Step-by-step Process:</h3>
+<p>Start Zoo-keeper:</p>
+<ul>
+    <li> bin/zookeeper-server-start.sh config/zookeeper.properties</li>
+<p>Start Kafka-server:</p>
+    <li>export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"</li> <p>I ran this command because I provide more memory.</p>
+    <li>cd kafka_2.12-3.3.1</li>
+    <li>bin/kafka-server-start.sh config/server.properties</li>
+<p>I pointed it to a private server and changed the server.properties so that it could run on a public IP.</p>
+</ul>
+
