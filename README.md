@@ -46,6 +46,8 @@
     <li>cd kafka_2.12-3.3.1</li>
     <li>bin/kafka-server-start.sh config/server.properties</li>
     <li>sudo nano config/server.properties</li>
+<img width="727" alt="kafka" src="https://github.com/kalid123/real-time-stock-analysis-project/assets/104119652/6f4effc2-1386-4132-b3e0-ad359f5dd649">
+
 <p>I directed it towards a private server and modified the server.properties to enable operation on a public IP.</p>
 </ul>
 
