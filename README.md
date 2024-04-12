@@ -50,4 +50,16 @@
 
 <p>I directed it towards a private server and modified the server.properties to enable operation on a public IP.</p>
 </ul>
+<h3>Create the topic:</h3>
+<ul>
+    <li>cd kafka_2.12-3.7.0</li>
+    <li> bin/kafka-topics.sh --create --topic demo_test1 --bootstrap-server 3.86.115.17:9092 --replication-factor 1 --partitions 1
+</li>
+<h3>Start Producer:</h3>
+<li>bin/kafka-console-producer.sh --topic demo_test --bootstrap-server 3.86.115.17:9092
+</li>
+<h3>Start Consumer:</h3>
+<li>bin/kafka-console-consumer.sh --topic demo_test --bootstrap-server 3.86.115.17:9092
+</li>
+</ul>
 
