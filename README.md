@@ -65,12 +65,12 @@
 </li>
 </ul>
 
-<h3>EC2 instance:</h3>
-<P> I created an EC2 instace to connect to the terminal.</P>
+<h3>Deployment of EC2 Instance:</h3>
+<p>I instantiated an EC2 instance to establish terminal connectivity.</p>
 <img width="1168" alt="EC2 instance" src="https://github.com/kalid123/real-time-stock-analysis-project/assets/104119652/d38782da-824d-4edf-b3f2-e5edf2101cbd">
 
-<h3>S3 Bucket</h3>
-<P>Created an S3 bucket to store my CSV data file.</P>
+<h3>S3 Bucket Creation</h3>
+<P>Established an S3 bucket to store the CSV data file.</P>
 <img width="1056" alt="S3 bucket" src="https://github.com/kalid123/real-time-stock-analysis-project/assets/104119652/3ccc32c3-54b0-4519-9ad8-f63c5beb3210">
 
 <h3>AWS Glue Crawler and AWS Athena Integration</h3>
